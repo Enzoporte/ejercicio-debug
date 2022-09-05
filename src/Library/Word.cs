@@ -16,6 +16,8 @@ namespace WordsPhrases
         /// Crea una nueva palabra con el texto recibido como argumento.
         /// </summary>
         /// <param name="text">El texto de la palabra.</param>
+
+        // El trim dentro del constructor asegura que la palabra que se pase no contenga espacios al principio y fin
         public Word(string text)
         {
             this.Text = text.Trim();
